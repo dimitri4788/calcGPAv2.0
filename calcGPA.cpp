@@ -97,12 +97,17 @@ calcGPA::calcGPA()
 
 }
 
+constexpr int calcGPA::getNumberOfCourses() const
+{
+    return courses;
+}
+
 void calcGPA::display1()
 {
     QMessageBox messageBox;
     bool errorMessage = false;  //Do not show error message by default
     float inputCredits[courses];
-    QString inputLetters[courses];
+    QString inputLetters[getNumberOfCourses()];
     float actualAquiredCredits[courses];
 
     //Errors checking starts

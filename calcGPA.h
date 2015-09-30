@@ -45,6 +45,8 @@ private:
     int number_of_textboxes;
     int courses;
 
+    constexpr int getNumberOfCourses() const;
+
     /***gpa (left side)***/
     QLabel* letterGrade;
     QLabel* creditHours;
