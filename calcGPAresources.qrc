@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon.png</file>
+        <file>Copyright.txt</file>
+    </qresource>
+</RCC>
