@@ -4,5 +4,6 @@
 ###To run
 ```sh
 $ brew install qt
+$ make
 $ macdeployqt calcGPA_v2.0.app -dmg
 ```
