@@ -11,6 +11,8 @@ $ make
 $ macdeployqt calcGPA_v2.0.app -dmg
 ```
 
+Screenshot
+----------
 ![](appImage.png)
 
 Author
